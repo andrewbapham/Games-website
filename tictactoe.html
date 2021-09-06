@@ -1,0 +1,46 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <title>Games.com: Tic Tac Toe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Tic Tac Toe, games, games.com">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+<body>
+  <div class="dropmenu">
+    <ul>
+      <li class="dropmenuitem"><a href="index.html">Home</a></li>
+      <li class="dropmenuitem"><a href="about.html">About Us</a></li>
+      <li class="dropdown dropmenuitem"><a href="javascript:void(0)" class="dropbutton">Games</a>
+        <div class="dropdown-content">
+          <a href="rockpaperscissorsgame.html">Rock Paper Scissors</a>
+          <a href="tictactoe.html">Tic Tac Toe</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <header>
+    <h1>Tic Tac Toe!</h1>
+    <h2>Play with a friend (or yourself)!</h2>
+  </header>
+
+  <div class="gridcontainer">
+    <div data-cell-index="0" class="cell"></div>
+    <div data-cell-index="1" class="cell"></div>
+    <div data-cell-index="2" class="cell"></div>
+    <div data-cell-index="3" class="cell"></div>
+    <div data-cell-index="4" class="cell"></div>
+    <div data-cell-index="5" class="cell"></div>
+    <div data-cell-index="6" class="cell"></div>
+    <div data-cell-index="7" class="cell"></div>
+    <div data-cell-index="8" class="cell"></div>
+  </div>
+  <h2 class="gamestatus"></h2>
+  <button class="gamerestart">Restart the game</button>
+  <script type="text/javascript" src="tictactoescripts.js"></script>
+</body>
+
+</html>
