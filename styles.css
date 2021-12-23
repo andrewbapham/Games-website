@@ -89,6 +89,14 @@ header {
   padding-top: 50px;
 }
 
+header > h1 {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  background-color: white;
+  font-size: 24pt;
+  padding: 40px 0px 40px 0px;
+}
+
 /*###################
     LANDING PAGE STYLES
 #####################*/
